@@ -75,7 +75,7 @@
         </div>
       </div>
       <div class="align z-10 px-4 mx-auto lg:max-w-7xl h-[5vh] md:px-8 mt-3">
-        <button class="rounded-none w-full bg-[#605DEC] text-white py-3">
+        <button @click="goToBooking(movies.detail.imdbID)" class="rounded-none w-full bg-[#605DEC] text-white py-3">
           Book
         </button>
       </div>
@@ -94,16 +94,25 @@ export default {
   data() {
     return {
       id: this.$route.params.id,
-      genre: ['123', '123'],
     };
   },
   methods: {
     getMovieDetail() {
       this.$store.dispatch('movies/getDetailMovie', this.$route.params.id);
     },
-    splitedList(row) {
-      return row !== null ? row.split(', ') : '';
+    splitedList(str) {
+      return str !== null & str !== undefined ? str.split(', ') : '';
     },
+    goToBooking(id) {
+      // id = this.slug(id);
+      this.$router.push({
+        name: "Booking Seat",
+        params: {
+          id: id,
+        },
+      });
+    },
+
   },
   mounted() {
     this.$emit('scrollToTop', true);

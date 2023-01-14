@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="align z-10 px-4 mx-auto lg:max-w-7xl md:px-8 mt-3 ">
-        <button class="rounded-none w-full bg-[#605DEC] text-white py-3">History</button>
+        <button class="rounded-none w-full bg-[#605DEC] text-white py-3 mx-auto" @click="goToHistory()">History</button>
       </div>
     </div>
   </section>
@@ -66,6 +66,11 @@ export default {
           id: id,
         },
       });
+    },
+    goToHistory() {
+      this.$router.push({
+          name: 'History',
+        });
     },
   },
   mounted() {
