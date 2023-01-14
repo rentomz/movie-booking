@@ -8,11 +8,11 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <script>
 export default {
-  methods: {
-    scrollToTop() {
-      window.scrollTo(0, 0);
-    }
-  }
+    methods: {
+        scrollToTop() {
+            window.scrollTo(0, 0);
+        }
+    },
 }
 </script>
 
