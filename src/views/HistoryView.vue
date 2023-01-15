@@ -1,8 +1,8 @@
 <template>
   <section id="History">
-    <div>
+    <div class="module">
       <div
-        class="align z-10 px-4 mx-auto lg:max-w-7xl h-[5vh] flex md:px-8 pt-2 shadow-md text-center align-middle my-auto"
+        class="align z-10 px-4 mx-auto lg:max-w-7xl h-[5%] flex md:px-8 pt-2 shadow-md text-center align-middle my-auto"
       >
         <a @click="$router.push({ path: '/'})" class="my-auto cursor-pointer">
           <svg
@@ -22,7 +22,7 @@
         </a>
       </div>
       <div
-        class="px-4 mx-auto lg:max-w-7xl md:px-8 h-[95vh] overflow-y-auto pt-4"
+        class="px-4 mx-auto lg:max-w-7xl md:px-8 h-[95%] overflow-y-auto pt-4"
       >
         <div
           className="grid grid-cols-2 gap-4 my-8"

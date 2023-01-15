@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from 'vue-router';
 </script>
 
 <template>
-  <div class="module">
+  <div>
     <RouterView @scrollToTop="scrollToTop" />
   </div>
 </template>

@@ -1,8 +1,8 @@
 <template>
   <section id="booking-seat">
-    <div>
+    <div class="module">
       <div
-        class="align z-10 px-4 mx-auto lg:max-w-7xl h-[5vh] flex md:px-8 pt-2 shadow-md text-center align-middle my-auto"
+        class="align z-10 px-4 mx-auto lg:max-w-7xl h-[5%] flex md:px-8 pt-2 shadow-md text-center align-middle my-auto"
       >
         <a @click="$router.go(-1)" class="my-auto cursor-pointer">
           <svg
@@ -22,7 +22,7 @@
         </a>
       </div>
       <div
-        class="px-4 mx-auto lg:max-w-7xl md:px-8 h-[85vh] overflow-y-auto pt-4"
+        class="px-4 mx-auto lg:max-w-7xl md:px-8 h-[85%] overflow-y-auto pt-4"
       >
         <div class="border-4 py-4 text-center screen">
           <h3 class="text-xl">Screen</h3>
@@ -40,7 +40,7 @@
         </div>
       </div>
       <div
-        class="align z-10 px-4 mx-auto lg:max-w-7xl h-[5vh] md:px-8 mt-3 flex space-x-4"
+        class="align z-10 px-4 mx-auto lg:max-w-7xl h-[5%] md:px-8 mt-3 flex space-x-4"
       >
         <select
           class="w-1/3 form-select block px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"

@@ -3,9 +3,9 @@
     <!-- loading -->
     <Loader v-if="movies.isLoading" />
 
-    <div v-else>
+    <div v-else class="module">
       <div
-        class="align z-10 px-4 mx-auto lg:max-w-7xl h-[5vh] flex md:px-8 pt-2 shadow-md text-center align-middle my-auto"
+        class="align z-10 px-4 mx-auto lg:max-w-7xl h-[5%] flex md:px-8 pt-2 shadow-md text-center align-middle my-auto"
       >
         <a @click="$router.go(-1)" class="my-auto cursor-pointer">
           <svg
@@ -25,7 +25,7 @@
         </a>
       </div>
       <div
-        class="px-4 mx-auto lg:max-w-7xl md:px-8 h-[85vh] overflow-y-auto pt-4"
+        class="px-4 mx-auto lg:max-w-7xl md:px-8 h-[85%] overflow-y-auto pt-4"
       >
         <img
           :src="movies.detail.Poster"
@@ -74,7 +74,7 @@
           </div>
         </div>
       </div>
-      <div class="align z-10 px-4 mx-auto lg:max-w-7xl h-[5vh] md:px-8 mt-3">
+      <div class="align z-10 px-4 mx-auto lg:max-w-7xl h-[5%] md:px-8 mt-3">
         <button @click="goToBooking(movies.detail.imdbID)" class="rounded-none w-full bg-[#605DEC] text-white py-3">
           Book
         </button>
