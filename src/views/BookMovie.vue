@@ -153,7 +153,11 @@ export default {
 
     goToHistory() {
       // id = this.slug(id);
-      if (this.$store.state.seats.valueSeat.length == this.bookingNumber) {
+      if (this.bookingNumber == 0) {
+        alert('Jumlah Booking tidak boleh kosong');
+      } else if (
+        this.$store.state.seats.valueSeat.length == this.bookingNumber
+      ) {
         const movieData = this.$store.state.movies.detail;
         var data = {
           imdbID: movieData.imdbID,
