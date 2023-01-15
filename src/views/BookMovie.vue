@@ -1,6 +1,6 @@
 <template>
   <section id="booking-seat">
-    <div class="h-[95vh] md:h-[100vh]">
+    <div class="h-[93vh] md:h-[100vh]">
       <div
         class="align z-10 px-4 mx-auto lg:max-w-7xl h-[5%] flex md:px-8 pt-2 shadow-md text-center align-middle my-auto"
       >

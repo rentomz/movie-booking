@@ -4,7 +4,7 @@
 
     <Loader v-if="movies.isLoading" />
 
-    <div v-else class="h-[95vh] md:h-[100vh]">
+    <div v-else class="h-[93vh] md:h-[100vh]">
       <div class="px-4 mx-auto lg:max-w-7xl md:px-8 h-[90%] overflow-y-auto">
         <div className="grid grid-cols-2 lg:grid-cols-4 relative my-8">
           <div
