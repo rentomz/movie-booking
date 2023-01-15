@@ -8,6 +8,6 @@ html {
 }
 
 body {
-  min-height: 100vh;
-  min-height: stretch;
+  height: 100vh;
+  height: stretch;
 }
