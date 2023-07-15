@@ -1,5 +1,5 @@
 # Vue 3 + Vite
-
+this app with mobile view
 ## Live Web
 https://movie-booking-rentomz.netlify.app/
 
